@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:#84A98C;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+}
+nav {
+	text-align: center;
+    display: flex;
+	flex-direction: column;
+}
+nav a{
+    color: black;
+}
+nav a:hover{
+    color: #CAD2C5;
+    text-decoration: underline;
+}
+body{
+    font-family: 'Lato', 'Montserrat', 'Raleway';
+    margin: .5rem;
+    padding: .5rem;
+}
+body hr{
+    height: 5px;
+    background-color: #214F4B;
+}
+
+main{
+    margin: auto 0;   
+}
+.c1{
+    background-color: #214F4B;
+}
+.c2{
+    background-color: #84A98C;
+}
+.c3{
+    background-color: #CAD2C5;
+}
+.c4{
+    background-color: #EBEBEB;
+}
+p{
+    font-family: 'Robot', 'Raleway';
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+img{
+    width: 40%;
+}
+
+footer{
+    background-color: #84A98C;
+    padding: 2em;
+    margin: 20px 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}

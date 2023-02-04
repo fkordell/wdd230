@@ -2,15 +2,6 @@
 @media only screen and (min-width: 37rem) {
 
 
-    sidemenu {
-		display: flex;
-		flex-direction: row;
-	}
-	sidemenu div {
-		width: 100%;
-		margin: 10px;
-	}
-
 	main div {
 		height: 100%;
 	}
@@ -59,7 +50,7 @@
 
 	footer {
 		display: grid;
-		grid-template-columns: 1fr 1fr 2fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 	
 	.logo-footer {
@@ -69,17 +60,17 @@
 	}
 	
 	.footer-title {
-		grid-column: 2/3;
+		grid-column: 2/4;
 		grid-row: 1/2;
 	}
 	.contact {
-		grid-column: 3/4;
+		grid-column: 4/5;
 		grid-row: 1/2;
 		justify-self: end;
 	}
 
 	.info {
-		grid-column: 1/4;
+		grid-column: 1/5;
 		grid-row: 2/3;
 		display: block;
 	}
@@ -117,7 +108,8 @@
 	}
 	
 	.join-in:hover{
-		background-color: #c5b205;
+		background-color: #214F4B;
+        color:#EBEBEB;
 	}
 
 }

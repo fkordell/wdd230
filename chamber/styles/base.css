@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* header/ nav */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Montserrat', 'Raleway';
+}
+body{
+    font-size: 20px;
+}
+
+
+header{
+    background-color:#84A98C;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+header div{
+    display: flex;
+    flex-flow: row;
+}
+header div #date-now{
+    margin: 10px;
+    padding: 15px;
+    width: 100%;
+}
+.date{
+    grid-column: 1/4;
+}
+.menu{
+    grid-column: 1/4;
+}
+.logo{
+    width: 35%;
+}
+.logo-footer{
+    width: 50%;
+}
+footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+h1{
+    font-size: 1.5em;
+}
+h1, p{
+    margin: 0 2vw;
+}
+h2{
+    padding: .5rem;
+}
+p{
+    padding: .5rem;
+}
+#hamburgerBtn, a{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+}
+a:hover{
+    color:#84A98C;
+}
+header div a{
+    margin: 1.5rem;
+}
+header .icons a{
+    margin: 0;
+}
+header div nav{
+    background-color: #84A98C;
+}
+header div nav ul{
+    list-style-type: none;
+    flex: auto;
+    padding: 0;
+    margin: 0;
+}
+header div nav ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header div nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    font-size: .8rem;
+    margin: 0;
+    text-align: center;
+}
+header div nav ul li.active a{
+    background-color: #84A98C;
+    color: black;
+}
+header div nav ul li a:hover{
+    background-color: #214F4B;
+}
+header div nav ul{
+    display: none;
+}
+header div nav ul.open{
+    display: block;
+}
+#hamburguerBtn span:nth-child(1) {display: block}
+#hamburguerBtn span:nth-child(2) {display: none}
+
+#hamburguerBtn.open span:nth-child(1) {display: none}
+#hamburguerBtn.open span:nth-child(2) {display: block}
+
+main{
+    justify-content: center;
+    font-size: .9rem;
+    padding: 0.5rem;
+}
+header div{
+    width: 100%;
+}
+header div nav{
+    width: 100%;
+}
+footer{
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+.footer-title h2{
+    color: black;
+}
+main h1, h2, h3, p, li{
+    padding: 15px;
+}
+li{
+    margin-left: 50px;
+}
+.spotlight{
+    background-color: #84A98C;
+    padding: 15px;
+}
+main div{
+    background-color:#84A98C;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.join{
+    display: none;
+}
+.spotlight3{
+    display: none;
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.date{
+    text-align: center;
+}
+span{
+    display: inline-block;
+}
+.hero{
+    position: relative;
+    padding: 0;
+}
+.banner{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+}
+.join-now{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding: 15px;
+    min-width: 100px;
+    width: 50%;
+    background-color:#84A98C;
+    border: 1px solid;
+}
+.join-now:hover{
+    background-color: #214F4B;
+    color: #84A98C;
+}
+
+.join-in:hover{
+    background-color: #214F4B;
+}
+.text-join{
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+

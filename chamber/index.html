@@ -16,7 +16,7 @@
     <header>
         <div class="titlepiece">
             <img class="logo" src="images/logo.png" alt="logo">
-            <h1 class="title">American Falls Chamber of Commerce</h1>
+            <h1>American Falls Chamber of Commerce</h1>
         </div>
         <div class="icons">
             <a  id="fb" href="https://facebook.com">
@@ -46,7 +46,12 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/wdd230-org.jpg" alt="Organization in American Falls" srcset="images/wdd200">
+            <picture class="img">
+                <source media="(max-width: 600px)" srcset="images/small.png">
+                <source media="(max-width: 768px)" srcset="images/medium.png">
+                <source media="(max-width: 1024px)" srcset="images/large.png">
+                <img src="images/wdd230-org (1).jpg" alt="company in American Falls">
+            </picture>
             <button class="join-now">Join the AFCC</button>
         </div>
         <div class="event">
@@ -103,8 +108,8 @@
         <div class="info">
             <p>
                 &copy; 2023 American Falls Chamber of Commerce| Kordell Farley | Idaho | <span>BYUI Online Learning</span>
-            </p>
             <p class="last-update" id="lastModified"></p>
+            </p>
         </div>
     </footer>
     <script src="scripts/scripts.js"></script> 

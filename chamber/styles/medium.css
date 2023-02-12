@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 37rem) {
+@media only screen and (min-width: 37.5em) {
 
 
 	main div {
@@ -17,36 +17,41 @@
 		grid-column: 1/4;
 		grid-row: 1/2;
 	}
-
+	.hero img{
+		object-fit: cover;
+	}
 	.news {
 		grid-column: 1/4;
-		grid-row: 2/3;
+		grid-row: 3/4;
 	}
 
 	.spotlight {
 		grid-column: 1/4;
-		grid-row: 3/4;
+		grid-row: 4/5;
+		display: flex;
+		flex-direction: row;
 	}
 	
 	.spotlight div {
 		width: 100%;
 		margin: 10px;
+		padding: 0;
 
 	}
-	.join {
+	.join1 {
 		grid-column: 1/4;
-		grid-row: 4/5;
+		grid-row: 5/6;
 		display: block;
 	}
 
 	.event {
 		grid-column: 1/3;
-		grid-row: 5/6;
+		grid-row: 2/3;
 	}
 
 	.weather {
 		grid-column: 3/4;
-		grid-row: 5/6;
+		grid-row: 2/3;
 	}
 
 	footer {
@@ -57,7 +62,7 @@
 	.logo-footer {
 		grid-column: 1/2;
 		grid-row: 1/2;
-        width: 60%;
+		width: 70%;
 	}
 	
 	.footer-title {
@@ -95,8 +100,8 @@
 	}
 
 	.join-now {
-		right: 15px;
-		bottom:25px;
+		grid-column: 1/4;
+		grid-row: 4/5;
 	}
 
 	.join-in {

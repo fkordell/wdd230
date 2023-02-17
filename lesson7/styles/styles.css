@@ -1,0 +1,14 @@
+img{
+    display: block;
+    margin-top: 2rem;
+    filter: blur(0em);
+    transition: filter 3s;
+}
+img[data-src]{
+    filter: blur(0.2em);
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -204,7 +204,17 @@ img{
     background-color: #214F4B;
     color:#EBEBEB;
 }
+.weather{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.weather img{
+    width: 30%;
+    display: flex;
+    align-self: center;
 
+}
 .join-in:hover{
     background-color: #214F4B;
     color: #EBEBEB;

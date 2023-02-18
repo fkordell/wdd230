@@ -109,8 +109,15 @@
     .page2{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-   
-
+    .discoverimg img{
+        display: block;
+        filter: blur(0em);
+        transition: filter 3s;
+    }
+    .discoverimg img[data-src]{
+        filter: blur(0.2em);
+    }
+ 
 }
 
     

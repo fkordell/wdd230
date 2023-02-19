@@ -55,6 +55,9 @@
         height: 100%;
         margin-bottom: 0;
     }
+    #img{
+        height: fit-content;
+    }
     .news{
         grid-column: 2/4;
         grid-row: 3/4;
@@ -114,9 +117,13 @@
         filter: blur(0em);
         transition: filter 3s;
     }
+    .discoverimg img:hover{
+        filter: blur(0.3em);
+    }
     .discoverimg img[data-src]{
         filter: blur(0.2em);
     }
+    
  
 }
 

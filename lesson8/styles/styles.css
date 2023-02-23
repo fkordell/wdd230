@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: thin solid black;
+}
+th, td{
+    padding: 8px 16px;
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    color: green;
+}
+.head{
+    color: cadetblue;
+}
+th{
+    background-color:cadetblue;
+    color: aliceblue;
+}
+th:nth-child(1){
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+tbody tr:nth-child(even){
+    background-color:azure;
+}

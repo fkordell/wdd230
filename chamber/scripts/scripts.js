@@ -32,14 +32,14 @@ x.onclick = toggleMenu;
 
 
 // copyright//
-document.getElementById("year").innerHTML = new Date().getFullYear();
+// document.getElementById("year").innerHTML = new Date().getFullYear();
 
 // Join Banner//
 const dayOfWeek = now.getDay();
-const msg = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+const meetingTime = document.querySelector("#meeting");
 
 if (dayOfWeek === 1|| dayOfWeek === 2) {
-	document.querySelector(".banner-msg").textContent = msg;
+	document.querySelector("#meeting").style.display = "block"
 } else{
-	document.querySelector(".banner").style.display = "none"
+	document.querySelector("#meeting").style.display = "none"
 }

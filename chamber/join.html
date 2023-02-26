@@ -44,16 +44,15 @@
         </div>
     </header>
     <main class="joinPage">
-        <h1 class="app">American Falls Chamber of Commerce Application</h1>
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
-                    <label class="top">Business Position<input type="text"></label>
+                    <label class="top">Business Position<input type="text" name="position" pattern="[a-zA-Z\s\-]{7,}" title="Please enter at least 7 letters, spaces, or hyphens (no numbers or special characters)"></label>
                     <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Business Name<input type="text"></label>
+                    <label class="top">Business Name<input type="text" name="business" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Membership Level</legend>
@@ -63,14 +62,40 @@
                     <label class="sbs"><input type="radio" name="status" value="Silver Membership">Silver</label>
                     <label class="sbs"><input type="radio" name="status" value="Gold Membership">Gold</label>
                 </fieldset>
+                <fieldset>
+                    <legend>Tell Us About Your Business</legend>
+                    <p>Please give us a brief description of your business and how you would like to better contribute to the community.</p>
+                    <label>
+                        <textarea name="description" cols="60" rows="5"></textarea>
+                    </label>
+                </fieldset>
 
                 <input class="submitBtn" type="submit" value="Submit My Membership Application">
 
-
-
-
             </form>
-
     </main>
+    <footer>
+        <div class="footer-piece">
+            <img class="logo-footer" src="images/logo.png" alt="logo">
+        </div>
+        <div class="footer-title">
+            <h2>American Falls Chamber of Commerce</h2>
+            <p>15. Main Street</p>
+            <p>American Falls, Idaho 83211</p>
+        </div>
+        <div class="contact">
+            <p>afcc@idaho.org</p>
+            <p>(208)343-8734</p>
+            <a href="https://www.google.com/maps/place/City+of+American+Falls+Fire/@42.7850467,-112.8598016,17z/data=!3m1!4b1!4m6!3m5!1s0x54aaafa6ccf0af55:0x5b9fd640121a06b7!8m2!3d42.7850428!4d-112.8576129!16s%2Fg%2F1hc2_qv4s">Location</a>
+        </div>
+        <div class="info">
+            <p>
+                &copy; 2023 American Falls Chamber of Commerce| Kordell Farley | Idaho | <span>BYUI Online Learning</span>
+            <p class="last-update" id="lastModified"></p>
+            </p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/"></script>
 </body>
 </html>

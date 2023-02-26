@@ -119,17 +119,20 @@
     }
     .discoverimg img:hover{
         filter: blur(0.3em);
+        transition: filter 1s;
     }
     .discoverimg img[data-src]{
         filter: blur(0.2em);
     }
     /* Join Page */ 
     .joinPage{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .app{
         text-align: center;
     }
+    
     
  
 }

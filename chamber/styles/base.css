@@ -36,6 +36,10 @@ header div #date-now{
     text-align: center;
     
 }
+#meeting{
+    color: white;
+    grid-column: 1/4;
+}
 .menu{
     grid-column: 1/4;
 }

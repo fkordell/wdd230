@@ -1,4 +1,3 @@
-
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {

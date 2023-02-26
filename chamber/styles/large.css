@@ -108,8 +108,8 @@
         grid-column: 1/5;
         grid-row: 3/4;
     }
-    /* Page 2 Content */
-    .page2{
+    /* Discover Page */
+    .discoverPage{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     .discoverimg img{
@@ -122,6 +122,13 @@
     }
     .discoverimg img[data-src]{
         filter: blur(0.2em);
+    }
+    /* Join Page */ 
+    .joinPage{
+        width: 100%;
+    }
+    .app{
+        text-align: center;
     }
     
  

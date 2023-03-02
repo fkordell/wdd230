@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shantell+Sans&display=swap');
+
+body{
+    font-family: 'Shantell', 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+img{
+width: 100%;
+height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2{
+    margin: 0;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+.card{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+footer{
+    text-align: center;
+    font-size: 1.3rem;
+}

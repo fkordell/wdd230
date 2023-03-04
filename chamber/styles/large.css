@@ -132,9 +132,21 @@
     .app{
         text-align: center;
     }
+    /*/Directory Page*/
+    .list section img {
+        display: none;
+    }
+    .list h2{
+        font-size: 28px;
+    }
     
-    
- 
+    .list a{
+        font-size: 16px;
+    }
+    .list p{
+        font-size: 18px;
+    }
+        
 }
 
     

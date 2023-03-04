@@ -117,6 +117,21 @@
 		background-color: #214F4B;
         color:#EBEBEB;
 	}
+	/* Directory */
+	.directorymenu button{
+		font-size: 24px;
+	}
+	
+	.list h2{
+		font-size: 24px;
+	}
+	
+	.list a{
+		font-size: 14px;
+	}
+	.list p{
+		font-size: 14px;
+	}
 
 }
 

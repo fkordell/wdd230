@@ -1,0 +1,67 @@
+{
+    "businesses":[
+        {
+            "name": "Idaho Power",
+            "address": "1221 West Idaho St. Boise, ID 83702",
+            "phone": "208-388-2323",
+            "website": "https://www.idahopower.com",
+            "image": "images/idahopower.PNG"
+        },
+        {
+            "name": "Les Schwab",
+            "address": "2842 Pocatello Ave, American Falls, ID 83211",
+            "phone": "208-226-7111",
+            "website": "https://www.lesschwab.com",
+            "image": "images/lesswhab.jpg"
+        },
+        {
+            "name": "Kens Food Market",
+            "address": "548 Tyhee Ave, American Falls, ID 83211",
+            "phone": "208-226-5062",
+            "website": "https://www.kensfoodmarket.com",
+            "image": "images/kensss.png"
+        },
+        {
+            "name": "Edgewood Spring Creek",
+            "address": "605 Hillcrest Ave, American Falls, ID 83211",
+            "phone": "208-226-1856",
+            "website": "https://edgewoodspringcreek.com",
+            "image": "images/edgewood.jpg"
+        },
+        {
+            "name": "Falls Dental",
+            "address": "239 Idaho St, American Falls, ID 83211",
+            "phone": "208-904-3496",
+            "website": "https://americanfallsdental.com",
+            "image": "images/fallsdental.jpeg"
+        },
+        {
+            "name": "Napa Auto Parts",
+            "address": "2829 Pocatello Ave, American Falls, ID 83211",
+            "phone": "208-226-2740",
+            "website": "https://www.napaonline.com",
+            "image": "images/napa.png"
+        },
+        {
+            "name": "Valley Wide Cooperative",
+            "address": "2782 Fairgrounds Rd, American Falls, ID 83211",
+            "phone": "208-372-7003",
+            "website": "https://www.valleywide.com",
+            "image": "images/valleywide.jpg"
+        },
+        {
+            "name": "Falls Grill",
+            "address": "277 Harrison St, American Falls, ID 83211",
+            "phone": "208-226-2245",
+            "website": "https://www.fallsgrill.com",
+            "image": "images/fallsgrill.jpg"
+        },
+        {
+            "name": "State Farm",
+            "address": "206 Idaho St, American Falls, ID 83211",
+            "phone": "208-226-3121",
+            "website": "https://www.statefarm.com",
+            "image": "images/statefarm.png"
+        }
+    ]
+}

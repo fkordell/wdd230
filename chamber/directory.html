@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the directory page with information for many of the businesses in American Falls">
+    <title>Directory page of the American Falls Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="titlepiece">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <h1>American Falls Chamber of Commerce</h1>
+        </div>
+        <div class="icons">
+            <a  id="fb" href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+        </div>
+        <div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="date">
+            <em id="date-now">Friday, 27 January 2023</em>
+        </div>
+    </header>
+    <main class="directoryPage">
+        <div class="directorymenu">
+            <button id="gridBtn">&#x25a6;</button>
+            <button id="listBtn">☰</button>
+        </div>
+        <article class="directoryGrid">
+            <section>
+                <div class="cards"></div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-piece">
+            <img class="logo-footer" src="images/logo.png" alt="logo">
+        </div>
+        <div class="footer-title">
+            <h2>American Falls Chamber of Commerce</h2>
+            <p>15. Main Street</p>
+            <p>American Falls, Idaho 83211</p>
+        </div>
+        <div class="contact">
+            <p>afcc@idaho.org</p>
+            <p>(208)343-8734</p>
+            <a href="https://www.google.com/maps/place/City+of+American+Falls+Fire/@42.7850467,-112.8598016,17z/data=!3m1!4b1!4m6!3m5!1s0x54aaafa6ccf0af55:0x5b9fd640121a06b7!8m2!3d42.7850428!4d-112.8576129!16s%2Fg%2F1hc2_qv4s">Location</a>
+        </div>
+        <div class="info">
+            <p>
+                &copy; 2023 American Falls Chamber of Commerce| Kordell Farley | Idaho | <span>BYUI Online Learning</span>
+            <p class="last-update" id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

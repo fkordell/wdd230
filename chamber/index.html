@@ -22,9 +22,6 @@
             <a  id="fb" href="https://facebook.com">
                 <img src="images/facebook.png" alt="fb icon">
             </a>
-            <a href="https://instagram.com">
-                <img src="" alt="">
-            </a>
         </div>
         <div>
             <button id="hamburgerBtn">&#9776;</button>
@@ -63,13 +60,16 @@
         <div class="weather">
             <h3>Weather</h3>
             <span id="location">American Falls</span>
-            <h3 id="temp">32°F</h3>
-            <h4 id="condition">Overcast</h4>
-            <img src="images/weather.png" alt="weather logo">
+            <br>
+            <p><span id="temp"></span>&#176; F</p>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
             <br>
             <hr>
-            <p>Wind Speed: <span id="windspeed">7</span> MPH</p>
-            <p>Wind Chill:  <span id="windchill">25</span>&#176</p>
+            <p>Wind Speed: <span id="windspeed"></span> MPH</p>
+            <p>Wind Chill:  <span id="windchill"></span></p>
         </div>
         <div class="news">
             <h3>News Release</h3>
@@ -114,9 +114,9 @@
             <p>
                 &copy; 2023 American Falls Chamber of Commerce| Kordell Farley | Idaho | <span>BYUI Online Learning</span>
             <p class="last-update" id="lastModified"></p>
-            </p>
         </div>
     </footer>
     <script src="scripts/scripts.js"></script> 
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

@@ -222,7 +222,6 @@ img{
 }
 .weather img{
     width: 30%;
-    display: flex;
     align-self: center;
 
 }

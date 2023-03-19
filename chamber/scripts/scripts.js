@@ -41,5 +41,5 @@ const meetingTime = document.querySelector("#meeting");
 if (dayOfWeek === 1|| dayOfWeek === 2) {
 	document.querySelector("#meeting").style.display = "block"
 } else{
-	document.querySelector("#meeting").style.display = "none"
+	document.querySelector("#meeting").style.display = "none";
 }

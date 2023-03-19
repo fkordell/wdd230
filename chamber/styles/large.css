@@ -1,4 +1,8 @@
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 75em) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     #hamburgerBtn{
         display: none;
     }
@@ -30,7 +34,7 @@
         justify-content: flex-end;
     }
     .logo{
-        width: 15%;
+        width: 80px;
     }
     .spotlight{
         grid-column: 4/5;
@@ -55,7 +59,7 @@
         height: 100%;
         margin-bottom: 0;
     }
-    #img{
+    img{
         height: fit-content;
     }
     .news{
@@ -89,9 +93,10 @@
     }
     h1{
         font-size: 2.5rem;
+        text-align: center;
     }
     .logo-footer{
-        width: 40%;
+        width: 80px;
     }
     footer{
         display: grid;
@@ -146,7 +151,10 @@
     .list p{
         font-size: 18px;
     }
-        
+    .contactPage{
+        display: flex;
+        flex-direction: column;
+    }  
 }
 
     

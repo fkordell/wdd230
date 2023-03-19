@@ -10,17 +10,21 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <h1 class="title">American Falls Chamber of Commerce</h1>
     <header>
         <div class="titlepiece">
             <img class="logo" src="images/logo.png" alt="logo">
-            <h1>American Falls Chamber of Commerce</h1>
         </div>
         <div class="icons">
             <a  id="fb" href="https://facebook.com">
-                <img src="images/facebook.png" alt="fb icon">
+                <img src="images/facebook.png" alt="facebook icon">
             </a>
         </div>
         <div>
@@ -33,7 +37,7 @@
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,10 +52,10 @@
                 <source media="(max-width: 200px)" srcset="images/af200.jpg">
                 <source media="(max-width: 500px)" srcset="images/af500.jpg">
                 <source media="(max-width: 800px)" srcset="images/af800.jpg">
-                <source media="(max-width: 1100px)" srcset="images/af1100.jpg">
+                <source media="(min-width: 1200px)" srcset="images/af1100.jpg">
                 <img id="img" src="images/af.jpeg" alt="American Falls">
             </picture>
-            <button class="join-now">Join the AFCC</button>
+            <button onclick="window.location.href='join.html';" class="join-now">Join the AFCC</button>
         </div>
         <div class="event">
             <h3>Ribbon Cutting</h3>
@@ -76,7 +80,7 @@
             <p>The American Falls city council met last Wednesday to decide on moving forward with plans to erect a new park following a city levee that was just passed the previous month. Finalizing of plans will take a few more weeks and then ground breaking should be happening soon afterwards.</p>
         </div>
         <div class="join1">
-            <button class="join-in">Join in the fun!</button>
+            <button onclick="window.location.href='join.html';" class="join-in">Join in the fun!</button>
             <p class="join1text">
                 Discover how to join the American Falls Chamber of Commerce and how it will benefit you and your organization.
             </p>

@@ -465,7 +465,7 @@ form label.top input:required:valid{
 /* Contact */
 .contactInfo{
     background-color: white;
-    padding-top: 25x;
+    padding-top: 25px;
 }
 .contactInfo p{
     text-align: center;
@@ -483,6 +483,23 @@ form label.top input:required:valid{
 }
 .contactPage img{
     padding-bottom: 20px;
+}
+.thankyou{
+    text-align: center;
+    width: 100%;
+}
+/* Contact */
+#feedback{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+.moveDown{
+    margin-top: 3em;
 }
 	
 

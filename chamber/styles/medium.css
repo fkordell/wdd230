@@ -21,9 +21,6 @@
 		grid-column: 1/4;
 		grid-row: 1/2;
 	}
-	.hero img{
-		object-fit: content;
-	}
 	.news {
 		grid-column: 1/4;
 		grid-row: 3/4;

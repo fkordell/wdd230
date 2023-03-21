@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
 </head>
 <body>
     <h1 class="title">American Falls Chamber of Commerce</h1>
@@ -46,7 +46,7 @@
         <p id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     </header>
     <main class="joinPage">
-            <form method="get" action="thanks.html">
+            <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
@@ -125,6 +125,7 @@
                     </label>
                 </fieldset>
 
+                <input type="hidden" name="date" id="loadDate">
                 <input class="submitBtn" type="submit" value="Submit My Membership Application">
 
             </form>
@@ -147,10 +148,9 @@
             <p>
                 &copy; 2023 American Falls Chamber of Commerce| Kordell Farley | Idaho |<span>BYUI Online Learning</span>
             <p class="last-update" id="lastModified"></p>
-            </p>
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>

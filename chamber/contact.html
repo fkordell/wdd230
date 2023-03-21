@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap" re;="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
 </head>
 <body>
     <h1 class="title">American Falls Chamber of Commerce</h1>
@@ -46,6 +46,7 @@
         <p id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     </header>
     <main class="contactPage">
+        <div id="feedback"></div>
         <form method="get">
             <fieldset>
                 <legend>All Inquiries Are Welcome!</legend>
@@ -62,7 +63,8 @@
             </fieldset>
         </form>
         <img src="images/af.jpeg" alt="af">
-        <input class="submitBtn" type="submit" value="Submit My Membership Application">
+        <button  class="submitBtn" type="submit">Submit my inquiry!</button>
+        
        <div class="contactInfo">
         <p>***Contact Info***</p>
         <p>Board of Directors: Bradley Johnson</p>
@@ -88,9 +90,9 @@
             <p>
                 &copy; 2023 American Falls Chamber of Commerce| Kordell Farley | Idaho |<span>BYUI Online Learning</span>
             <p class="last-update" id="lastModified"></p>
-            </p>
         </div>
     </footer>
-    <script src="scripts/scripts.js"></script>   
+    <script src="scripts/scripts.js"></script> 
+    <script src="scripts/inquiry.js"></script>  
 </body>
 </html>

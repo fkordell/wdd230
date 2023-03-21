@@ -242,6 +242,12 @@ img{
 .news{
     text-align: center;
 }
+.visit{
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 /* Footer */
 
@@ -269,6 +275,10 @@ footer{
 }
 .info p {
     line-height: 25px;
+}
+/* Discover */
+.stats{
+    text-align: center;
 }
 
 /*/Form Styling/*/
@@ -419,9 +429,7 @@ form label.top input:required:valid{
     justify-content: center;
     padding: 1rem;
 }
-.list section > * {
-	margin: 0 1rem;
-}
+
 
 .list section img {
 	display: none; 
@@ -454,11 +462,29 @@ form label.top input:required:valid{
 .list .cards:nth-child(odd) {
 	background-color: rgb(239, 247, 255);
 }
-.contactPage{
-    display: flex;
-    justify-content: center;
+/* Contact */
+.contactInfo{
+    background-color: white;
+    padding-top: 25x;
 }
-
+.contactInfo p{
+    text-align: center;
+    font-weight: bold;
+    line-height: .2rem;
+    background-color: white;
+}
+.submitBtn{
+    border: none;
+    background-color:#9c2c13;
+    color: white;
+    border-radius: 1rem;
+    height: 3em;
+    width: 100%;
+}
+.contactPage img{
+    padding-bottom: 20px;
+}
+	
 
 
 

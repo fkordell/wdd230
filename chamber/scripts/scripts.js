@@ -31,15 +31,16 @@ x.onclick = toggleMenu;
 
 
 
-// copyright//
+//copyright//
 // document.getElementById("year").innerHTML = new Date().getFullYear();
 
 // Join Banner//
+
 const dayOfWeek = now.getDay();
 const meetingTime = document.querySelector("#meeting");
 
 if (dayOfWeek === 1|| dayOfWeek === 2) {
-	document.querySelector("#meeting").style.display = "block"
+	document.querySelector("#meeting").style.display = "block";
 } else{
 	document.querySelector("#meeting").style.display = "none";
 }

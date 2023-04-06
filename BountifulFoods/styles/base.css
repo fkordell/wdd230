@@ -1,0 +1,312 @@
+*{
+    font-family: 'Lato', 'Montserrat', 'Raleway', 'Roboto';
+}
+/* Header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    background-color: #FF9670;
+}
+header div{
+    display: flex;
+    flex-flow: row;
+}
+.socialMedia{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: end;
+    width: 100%;
+}
+#primaryNav{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+nav ul{
+    display: none;
+    list-style: none;
+}
+nav ul.open{
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+nav ul.open a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav ul li a:hover{
+    text-decoration: underline #C5CA54;
+}
+.socialMedia img{
+    position: relative;
+    top: 5px;
+    left: 35px;
+    width: 50%;
+    border-radius: 50%;
+}
+.socialMedia a{
+    color:#FF9670;
+}
+#map{
+    display: none;
+}
+.order{
+    display: none;
+}
+h1{
+    text-align: center;
+}
+li.active{
+    background-color: #FF9670;
+}
+header div nav ul li.active a{
+    text-decoration: underline #C5CA54;
+}
+* {box-sizing:border-box}
+
+.slides{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slide{
+    display: none;
+    padding: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+.text {
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+#hamburgerBtn, a{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    color:#27427C;
+}
+#hamburgerBtn:hover{
+    color: black;
+}
+header div nav ul.open{
+    display: block;
+    padding: 5px;
+}
+#hamburguerBtn span:nth-child(1) {display: block}
+#hamburguerBtn span:nth-child(2) {display: none}
+
+#hamburguerBtn.open span:nth-child(1) {display: none}
+#hamburguerBtn.open span:nth-child(2) {display: block}
+
+/* Main */
+.weather, .orders{
+    box-shadow: 10px 10px 15px rgb(181, 190, 205);;
+}
+.weather{
+    background-color: #27427C;
+    color: #C5CA54;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+.info{
+    border: 2px solid #27427C;
+    color:#27427C;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.info p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.orders{
+    background-color: #27427C;
+    color:#C5CA54;
+    margin: 10px;
+    text-align: center;
+}
+.orderBtn{
+    background-color:#FF9670;
+    color:black;
+    margin: 10px;
+}
+.orderBtn:hover{
+    background-color: #C5CA54;
+    color: black;
+}
+.orders img{
+    width:100%;
+    height: 100%;
+}
+.order1{
+    background-color: #27427C;
+    color: #C5CA54;
+}
+.order1:hover{
+    color:#FF9670;
+}
+
+/* Footer */
+footer{
+    background-color: #ff9670;
+    display: flex;
+    justify-content: center;
+    color: #27427C;
+   }
+
+
+/* Fresh */
+.fresh{
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* Image container */
+.boxImg img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Fieldset and legend */
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* Headings */
+.fresh h2 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+/* Input boxes */
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input input,
+.input select,
+.input textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input textarea {
+    resize: vertical;
+}
+
+/* Fruit Selection info */
+.fresh p {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+/* Submit button */
+.submit-button {
+    color:#27427C;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color:#FF9670
+}
+
+/* About Us */
+.about{
+    text-align: center;
+    padding: 5px;
+    
+}
+.about div{
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+hr{
+    height: 5px;
+    width: 85%;
+    background-color: #27427C;
+}
+.about p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+

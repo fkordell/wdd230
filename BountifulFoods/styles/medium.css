@@ -1,0 +1,81 @@
+@media only screen and (min-width: 55em){
+    header{
+        display: flex;
+    }
+    #map{
+        display: block;
+        background-color: #FF9670;
+        border: none;
+        color: #27427C;
+        font-size:8px;
+    }
+    #map a{
+        text-decoration: none;
+    }
+    .order{
+        display: block;
+        background-color: #FF9670;
+        border: none;
+        color: #27427C;
+    }
+    #map:hover, .order:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .socialMedia{
+        margin-top: 20px;
+    }
+    header div nav ul.open a{
+        padding-right: 30px;
+    }
+    .socialMedia img{
+        position: relative;
+        top: -5px;
+    }
+    .home{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5% 50% 30% 15%;
+        margin: auto;
+    }
+    main div{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .slides{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .dot{
+        display: none;
+    }
+    .weather{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        font-size: 20px;
+    }
+    .orders{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .info{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        font-size: 20px;
+    }
+    .info p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .orders img{
+        height:60%;
+        width: auto;
+        padding-bottom: 10px;
+    }
+
+    /* About */
+    .about p{
+        padding-left: 100px;
+        padding-right: 100px;
+       }
+}

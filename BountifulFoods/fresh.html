@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the fresh page for Bountiful Foods, where you can make your very own custom drink with our local fresh fruit.">
+    <title>Bountiful Foods Fresh Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+</head>
+<body>
+    <header>
+        <div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <button id="map"><a href="https://www.google.com/maps/place/Walmart+Supercenter/@33.0928323,-117.3670703,12z/data=!4m10!1m2!2m1!1scarlsbad+walmart!3m6!1s0x80dc73dc2ef09111:0x41cb76959bec30f2!8m2!3d33.1770288!4d-117.2975696!15sChBjYXJsc2JhZCB3YWxtYXJ0IgOIAQFaEiIQY2FybHNiYWQgd2FsbWFydJIBEGRlcGFydG1lbnRfc3RvcmXgAQA!16s%2Fm%2F03nz_kp">Location</a></button>
+        </div>
+        <div>
+            <button class="order">Order</button>
+        </div>
+        <div class="socialMedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+        </div>
+    </header>
+    <main class="fresh">
+        <form method="get" class="form">
+            <fieldset>
+                <h1>Make Your Drink</h1>
+                <p>Your Info</p>
+                <label class="input">
+                    <input type="text" name="fname" placeholder="First Name*" required class="first-name">
+                </label>
+                <label class="input">
+                    <input type="email" name="email" placeholder="Email*" required class="email-address">
+                </label>
+                <label class="input">
+                    <input type="tel" name="phone" placeholder="Phone Number*" required class="phone-number">
+                </label>
+                <h2>Select Your Fruit</h2>
+                <label class="input">
+                    <select name="subject" class="fruit-choice-1 fruitSelection">
+                        <option value="">Option 1</option>
+                    </select>
+                </label>
+                <label class="input">
+                    <select name="subject" class="fruit-choice-2 fruitSelection">
+                        <option value="">Option 2</option>
+                    </select>
+                </label>
+                <label class="input">
+                    <select name="subject" class="fruit-choice-3 fruitSelection">
+                        <option value="">Option 3</option>
+                    </select>
+                </label>
+                <h2>Special Instructions</h2>
+                <label class="input">
+                    <textarea name="description" rows="4" cols="40" class="special-instructions" placeholder="Add a note"></textarea>
+                </label>
+            </fieldset>
+            <input type="hidden" name="date" id="loadDate">
+            <input type="button" value="submit" class="submit-button">
+        </form>
+        <div class="info">
+
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p class="last-update" id="lastModified">&copy;
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/formInfo.js"></script>
+    <script src="scripts/formData.js"></script>
+    <script src="scripts/submit.js"></script>
+</body>
+</html>

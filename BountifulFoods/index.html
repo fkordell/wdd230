@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are Bountiful Foods, where we bring the fresh to you">
+    <title>Bountiful Foods Home</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+</head>
+<body>
+    <header>
+        <div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+           <button id="map"><a href="https://www.google.com/maps/place/Walmart+Supercenter/@33.0928323,-117.3670703,12z/data=!4m10!1m2!2m1!1scarlsbad+walmart!3m6!1s0x80dc73dc2ef09111:0x41cb76959bec30f2!8m2!3d33.1770288!4d-117.2975696!15sChBjYXJsc2JhZCB3YWxtYXJ0IgOIAQFaEiIQY2FybHNiYWQgd2FsbWFydJIBEGRlcGFydG1lbnRfc3RvcmXgAQA!16s%2Fm%2F03nz_kp">Location</a></button>
+        </div>
+        <div>
+            <button onclick="window.location.href='fresh.html';" class="order">Order</button>
+        </div>
+        <div class="socialMedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+        </div>
+    </header>
+    <main class="home">
+        <div>
+            <h1>Bountiful Foods</h1>
+        </div>
+        <div class="slides">
+            <div class="slide fade">
+                <div class="numberText"></div>
+                <picture>
+                    <img src="images/fruit.jpeg" style="width: 100%" alt="fruits">
+                </picture>
+                <div class="text">Make a custom fruit smoothie</div>
+            </div>
+            <div class="slide fade">
+                <div class="numberText"></div>
+                <img src="images/veggies.png" style="width: 100%" alt="veggies">
+                <div class="text">Come get some of our locally grown fresh produce!</div>
+            </div>
+            <div class="slide fade">
+                <div class="numberText"></div>
+                <picture>
+                    <img src="images/farm.jpeg" style="width: 100%" alt="farm fresh">
+                </picture>
+                <div class="text">We bring the fresh to you!</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="weather">
+            <p>Weather</p>
+            <span id="location">Carlsbad, CA.</span>
+            <br>
+            <p><span id="temp"></span>&#176; F</p>
+            <figure>
+                <img  alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p>Humidity <span id="humidity"></span>%</p>
+            <p>3 day forecast: <span id="forecast"></span></p>
+        </div>
+        <div class="info">
+            <p>
+                Carlsbad, California is located only 35 miles North of San Diego and 65 miles South of downtown Los Angeles. It was founded in the late 1860’s and is now called home by over 115,000 people. This coastal city has many points of interest including: Legoland, The Flower Fields, Tamarack Surf Beach, South Carlsbad State Beach, the Leo Carrillo Ranch Historic Park, and much more! Carlsbad has a mild climate year round which attracts many tourists to come and visit. Carlsbad is proud to have Bountiful Foods as part of the community and hope that you will come and visit soon!
+            </p>
+        </div>
+        <div class="orders">
+            <button onclick="window.location.href='fresh.html';" class="orderBtn">Order Now</button>
+            <p># of drinks ordered:</p><span class="numDrinks"></span>
+            <img src="images/store.jpeg" alt="store front">
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p class="last-update" id="lastModified">&copy;
+        </div>
+    </footer>
+    <script src="scripts/slide.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/drinkCount.js"></script>
+    <script src="scripts/images.js"></script>
+    
+</body>
+</html>
